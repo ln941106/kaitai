@@ -1,0 +1,287 @@
+body {
+	background: #f5f5f5;
+}
+
+.iframe {
+	height: 500px;
+	z-index: 10;
+}
+
+.header_body {
+	width: 1200px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.header_body>div {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	vertical-align: top;
+	margin-left: 7px;
+}
+
+.the_article {
+	width: 67.5%;
+	margin-bottom: 25px;
+	padding: 0;
+}
+
+/* 文章 */
+.the_article_title {
+	padding: 22px 12px 13px 12px;
+	background: #006080;
+}
+
+.the_article_title>.center_title {
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.the_article_title>div>div {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	vertical-align: middle;
+}
+
+.the_article_title>div .decorate {
+	color: #fff;
+	padding: 0 5px;
+	position: absolute;
+	line-height: 46px;
+	font-size: 22px;
+	letter-spacing: 1.8px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 30px;
+	width: 70%;
+	text-align: center;
+	background-color: #006080;
+}
+
+.the_article_title>div .decorate span {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	font-size: 28px;
+	color: #ef5d34;
+	letter-spacing: 2.25px;
+}
+
+.the_article_title>div .input {
+	margin: 30px 0 10px 0;
+	width: 32%;
+}
+
+.the_article_title>div .input input {
+	padding: 0 40px 0 20px;
+	height: 35px;
+	line-height: 1;
+	width: 100%;
+	border-radius: 10px;
+	color: #9e9e9e;
+	border: none;
+	margin-top: 10px;
+}
+
+.the_article_title>div .offer{
+	width: 60px;
+	height: 60px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	padding-top: 5px;
+	padding-left: 2px;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 4px;
+	z-index: 1;
+	margin: 30px 60px 0 30px;
+	border-radius: 50%;
+	background: #3c9cbc;
+	border: solid 4px #a5d2e0;
+	transition: all 1s;
+	animation: myfirst 1s linear infinite;
+}
+
+.the_article_title>.center_title .offer:hover {
+	transform: scale(1.1, 1.1);
+}
+@keyframes myfirst {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.05,1.05);
+	}
+	100% {
+		transform: scale(1,1);
+	}
+}
+.the_article_title>div .the_budget {
+	width: 40%;
+	text-align: left;
+	line-height: 60px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.the_article_title>div .the_budget span {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	width: 180px;
+	text-align: center;
+	font-size: 28px;
+	color: #ef5d34;
+}
+.center_body{
+	width: 100%;
+}
+.center_body>div{
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	vertical-align: top;
+}
+.the_article>.h1{
+	border-bottom: solid 1px #dcdcdc;
+    font-size: 26px;
+    color: #292828;
+	padding: 10px 30px;
+	/* text-align: left; */
+}
+.center_body .WeChat {
+	width: 18.5%;
+	height: 100px;	
+}
+.WeChat a{
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	margin-top: 50px;
+}
+.WeChat a img{
+	width: 30px;
+	margin-right: 20px;
+}
+.WeChat a div{
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+}
+.center_body .the_article_content{
+	width: 81%;
+	background: #fff;
+}
+.the_article_content img{
+	width: 100%;
+}
+.the_article_top div{
+	text-align: left;
+	margin-top: 5px;
+}
+.the_article_top div div{
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	font-size: 16px;
+    color: #757575;
+	margin: 10px;
+}
+.the_article_top div div:nth-child(1){
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 预约 */
+.appointment {
+	width: 22.5%;
+	background: #fff;
+	margin-bottom: 200px;
+}
+
+.appointment_title {
+	border-top: solid 17px #6f9aab;
+	padding: 0 20px 10px 20px;
+	font-size: 25px;
+	line-height: 45px;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	color: #006080;
+}
+
+.appointment_body {
+	padding: 0 15px;
+}
+
+.appointment_body select {
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: solid 1px #e8e8e8;
+	padding-left: 25px;
+}
+
+.appointment_body input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 16px;
+	border: solid 1px #e8e8e8;
+	padding: 0 0 0 18px;
+}
+
+.appointment_body .submit {
+	margin: 10px auto;
+	display: block;
+	width: 100%;
+	background: #ffd200;
+	color: #000;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.appointment_body button:hover {
+	background: #086d8e;
+	color: #fff;
+}
+
+.appointment>img {
+	width: 100%;
+	padding: 0 15px;
+}
+
+.appointment .qr_code .content,
+.appointment .qr_code>img {
+	vertical-align: middle;
+}
+
+.appointment .qr_code>img {
+	width: 123px;
+	margin: 10px 0;
+}
+
+.appointment .qr_code .content {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	text-align: left;
+	font-size: 14px;
+	color: #0a0a0a;
+	line-height: 20px;
+}

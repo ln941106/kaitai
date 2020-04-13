@@ -1,0 +1,275 @@
+body {
+	background: rgb(246, 246, 246);
+}
+
+nav img {
+	padding-top: 34px;
+	width: 100%;
+}
+
+.design_title {
+	text-align: center;
+	color: #444;
+	margin: 120px;
+}
+
+.design_title .h1 {
+	font-weight: 500;
+	font-size: 30px;
+	margin: 5px 0;
+	letter-spacing: 5px;
+}
+
+.article {
+	box-shadow: 0px 0px 30px -12px #999;
+	height: 750px;
+	width: 86%;
+	background: #fff;
+	border-radius: 2px;
+	padding: 0px 120px;
+	color: #000;
+	margin-top: 50px;
+}
+
+.article>div>div,
+.article>div img {
+	vertical-align: top;
+}
+
+.article>div {
+	font-size: 14.5px;
+	padding-top: 82px;
+}
+
+.article>div>div {
+	width: 50%;
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	margin-right: 9%;
+}
+
+.article>div>div .h1 {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.article>div>div p {
+	line-height: 25px;
+}
+
+.article>div>div div {
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+}
+
+.article>div img {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	width: 40%;
+	height: 250px;
+}
+
+/* 设计师介绍 */
+.designer_introduce {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	transition: all 1.5s;
+}
+
+.designer_introduce article {
+	width: 14.3%;
+	*width: 14.2%;
+	width: 14.1%\0;
+
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	height: 100%;
+}
+
+.designer_introduce article:first-child {
+	background: url(../images/design_team/sheji01.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article{
+	background: url(../images/design_team/sheji02.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article+article {
+	background: url(../images/design_team/sheji03.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article+article+article {
+	background: url(../images/design_team/sheji04.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article+article+article+article {
+	background: url(../images/design_team/sheji05.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article+article+article+article+article {
+	background: url(../images/design_team/sheji06.jpg) no-repeat;
+}
+
+.designer_introduce article:first-child+ article+article+article+article+article+article {
+	background: url(../images/design_team/sheji07.jpg) no-repeat;
+}
+
+@media (min-width: 1000px) {
+	.designer_introduce article:hover {
+		/* width: 80%;
+		transition: all 1.5s;
+		background-size: 100% 100%; */
+	}
+}
+
+.designer_introduce article:hover {
+	/* width: 80%;
+	*width: 14.3%;
+	transition: all 1.5s;
+	background-size: 100% 100%; */
+	
+	width: 80%;
+	*width: 14.2%;
+	width: 14.1%\0;
+	transition: all 1.5s;
+	background-size: 100% 100%;
+}
+
+
+.after_sales {
+	box-shadow: 0px 0px 30px -12px #999;
+	background: #fff;
+	border-radius: 2px;
+	color: #000;
+	margin-top: 30px;
+	text-align: center;
+	padding: 80px;
+}
+
+.after_sales>div>div {
+	font-size: 18px;
+	color: #666;
+}
+
+.after_sales>div>.h1 {
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.after_sales ul li {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	border: 5px solid rgb(203, 203, 203);
+	padding: 40px 50px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.after_sales ul li:first-child {
+	margin-left: 0;
+}
+
+.after_sales ul li:nth-child(6) {
+	margin-left: 0;
+}
+
+.after_sales ul li img {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	width: 80px;
+	height: 80px;
+}
+
+.after_sales ul li div {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.after_sales ul li div:nth-child(2) {
+	border-top: 3px solid rgb(216, 216, 216);
+	padding-top: 20px;
+
+}
+
+/* 我们的历史足迹 */
+.history,
+.partners {
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	width: 1200px;
+	padding: 110px 0;
+	margin: 0 auto;
+}
+
+.history>div:first-child,
+.partners>div:first-child {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.history>div:first-child+div+div>div {
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	width: 49.7%;
+	text-align: left;
+	margin-top: 100px;
+}
+
+.history>div:first-child+div+div >div>div img,
+.history>div:first-child+div+div >div>div {
+	vertical-align: top;
+}
+
+.history>div:first-child+div+div >div img,.history>div:first-child+div+div >div>div{
+	vertical-align: middle;
+}
+.history>div:first-child+div+div >div img {
+	width: 40%;
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+}
+
+.history>div:first-child+div+div >div>div {
+	width: 50%;
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	padding-left: 30px;
+}
+
+.history>div:first-child+div+div >div>div>div:first-child {
+	font-weight: 600;
+	font-size: 22px;
+
+}
+
+.history>div:first-child+div+div >div>div>p {
+	font-size: 17px;
+	margin-top: 50px;
+}
+
+/* 品牌合作伙伴 */
+.partners {
+	width: 100%;
+	background: #fff;
+}
+
+.partners img {
+	width: 60%;
+	margin-top: 50px;
+}

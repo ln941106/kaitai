@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+		<title></title>
+		<link rel="stylesheet" href="css/min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="shortcut icon" href="images/favicon.ico" /> 
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if lt IE 9]>
+			<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+			<script src="https://js.easytransfer.cn/js/main/lib/vendor/html5shiv.js"></script>
+			<script src="https://js.easytransfer.cn/js/main/lib/vendor/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body class="body">
+		<!-- 底部关于我们 -->
+		<footer>
+			<div class="footer">
+				<!-- <div class="footer_table">
+					<a class="footer_item follow " href="javascript:;" rel="nofollow">
+						<span class="icon iconfont">&#xe6a9;</span>
+						<div>关注我们</div>
+						<div>德泰到家服务号</div>
+					</a>
+					<div class="footer_item div">
+						<span class="icon iconfont">&#xe6a9;</span>
+						<div>推荐好友</div>
+						<div class="service-des">签单就返500优惠券</div>
+					</div>
+					<a class="footer_item" href="about_us.html" rel="nofollow" target="_parent">
+						<span class="icon iconfont">&#xe6a9;</span>
+						<div>关于我们</div>
+					</a>
+				</div> -->
+				<hr>
+				<div class="footer_nav">
+					<div class="footer_body">
+						<div class="footer_body_left">
+							<button id="button">预约服务</button>
+							<div>400-616-9716</div>
+							<div>周一至周日09:00-18:00</div>
+						</div>
+						<div class="footer_body_cen">
+							<div class="header">网站帮助</div>
+							<div class="footer_body_cen_body">
+								<div><a href="javascript:;">网站地图</a></div>
+								<!-- <div class="roast">我要吐槽</div> -->
+								<!-- <div class="roast-code">
+									<div class="roast-des">微信扫一扫，提交吐槽～</div>
+									<img src="http://assets1.zhufaner.com/images/common/roast-pc.jpeg">
+								</div> -->
+								<div>意见反馈</div>
+							</div>
+						</div>
+						<div class="footer_body_cen">
+							<div class="header">关于我们</div>
+							<div class="footer_body_cen_body">
+								<div><a href="about_us.html" target="_parent">联系我们</a></div>
+								<div>专线客服</div>
+								<div>13046036010</div>
+								<div>13290108060</div>
+								<div>13290108260</div>
+								<!-- <div><a href="javascript:;" rel="nofollow">诚聘英才</a></div> -->
+							</div>
+						</div>
+					</div>
+					<div class="footer_body_right">
+						<img src="images/erweim.jpg" alt="关注德泰到家微信公众号">
+					</div>
+				</div>
+			</div>
+			<div class="address">
+				<div>山东恺泰智能科技有限公司</div>
+			</div>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		$(function () {
+			$('.footer_body_left button').click(function () {
+				$(window.parent.document).find(".about_decorate").fadeIn(200);
+			})
+			$('.footer_table .div').click(function () {
+				$(window.parent.document).find(".recommend_friends").fadeIn(200);
+			})
+			
+			$('.footer_table .follow').click(function () {
+				$(window.parent.document).find(".attention_wm").append('<img src="../images/attention_wm.jpg" alt="">');
+				$(window.parent.document).find(".attention_wm").fadeIn(200);
+			})	
+		})
+		
+	</script>
+</html>
